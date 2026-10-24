@@ -43,7 +43,7 @@ document.getElementById("contactForm").addEventListener("submit", e => {
   const acara = document.getElementById("acara").value.trim();
   const pesan = document.getElementById("pesan").value.trim();
   const text = `Halo Ismi, saya ${nama}.%0AAcara: ${encodeURIComponent(acara)}%0A${encodeURIComponent(pesan)}`;
-  window.open(`https://wa.me/${081573534686}?text=${text}`, "_blank");
+  window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${text}`, "_blank");
 });
 
 // Tahun otomatis di footer
