@@ -1,5 +1,5 @@
 // ====== PENGATURAN (ubah di sini) ======
-const WHATSAPP_NUMBER = "6281234567890"; // format: 62 + nomor tanpa 0
+const WHATSAPP_NUMBER = "6285860536950"; // format: 62 + nomor tanpa 0
 
 // Menu mobile
 const burger = document.querySelector(".burger");
